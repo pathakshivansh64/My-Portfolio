@@ -14,15 +14,15 @@ import Transition from '@/components/Transition'
 
 const Project=({type,title,summary,img,link,github})=>{
   return(
-    <article className='w-full relative h-max   items-center justify-center rounded-3xl border-2 border-solid border-dark bg-light shadow-dark shadow-2xl p-10 dark:border-light dark:bg-dark dark:shadow-light xs:p-4'>
+    <article className='w-full relative h-max   items-center justify-center rounded-3xl border-2 border-solid border-dark bg-light shadow-dark shadow-2xl p-10 dark:border-light dark:bg-dark dark:shadow-light xs:rounded-2xl xs:rounded-br-3xl xs:p-4'>
      <Link href={link} target={"_blank"} className='w-full  cursor-pointer overflow-hidden rounded-lg relative  '>
       <Image src={img} alt={title} className='w-full h-auto rounded-xl' priority sizes='(max-width: 768px) 100vw,(max-width: 1200px) 50vw'/>
       </Link>
 
-      <div className='w-full mt-5 flex flex-col items-start justify-between pl-6 '>
-        <span className='text-primary font-medium text-xl dark:text-primaryDark'>{type}</span>
+      <div className='w-full mt-5 flex flex-col items-start justify-between  '>
+        <span className='text-primary font-medium text-xl dark:text-primaryDark xs:text-base'>{type}</span>
         <Link href={link} target={"_blank"} className='hover:underline underline-offset-2'>
-        <h2 className='my-2 w-full text-left text-4xl font-bold dark:text-light'>{title}</h2>
+        <h2 className='my-2 w-full text-left text-2xl font-bold dark:text-light sm:text-lg lg:text-lg'>{title}</h2>
         </Link>
         <p className='my-2 font-medium text-dark dark:text-light'>{summary}</p>
         <div className='mt-2 flex items-center'>
@@ -75,11 +75,11 @@ const Projects = () => {
            <FeaturedProject title={"Job Application Portal"} link="https://jobapp-6va3.onrender.com/" summary={"Developed a full-stack job searching platform that allows users to search for job listings, apply for positions, and manage their job applications.  "} type={"Featured Project"} img={Project1} github={"https://github.com/pathakshivansh64/Jobapp"} />
 
           </div>
-          <div className='col-span-6 sm:col-span-12 '>
+          <div className='col-span-6 sm:col-span-12 md:col-span-12 '>
           <Project title={"OnlineGasAgency"} link="https://pathakshivansh64.github.io/OnlineGasAgency/" summary={"The Online Gas Booking System is a web-based application developed using HTML, CSS, and JavaScript. It allows users to conveniently book gas cylinders online, making the process faster and more efficient for both customers and gas agencies. "} type={" Project"} img={Project2} github={"https://github.com/pathakshivansh64/OnlineGasAgency"} />
           </div>
 
-          <div className='col-span-6 sm:col-span-12'>
+          <div className='col-span-6 sm:col-span-12 md:col-span-12'>
           <Project title={"Text-Editor App"} link="https://pathakshivansh64.github.io/texteditor/" summary={"The React Text Editor is a web application built with React that provides users with a simple and intuitive platform for writing, editing, and formatting text. This application serves as a lightweight, responsive text editor ideal for note-taking, drafting documents."} type={" Project"} img={Project3} github={"https://github.com/pathakshivansh64/texteditor"} />
           </div>
 
