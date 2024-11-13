@@ -80,7 +80,7 @@ const Projects = () => {
           </div>
 
           <div className='col-span-6 sm:col-span-12'>
-          <Project title={"Text-Editor App"} link=" https://pathakshivansh64.github.io/texteditor/ " summary={"The React Text Editor is a web application built with React that provides users with a simple and intuitive platform for writing, editing, and formatting text. This application serves as a lightweight, responsive text editor ideal for note-taking, drafting documents."} type={" Project"} img={Project3} github={"https://github.com/pathakshivansh64/texteditor"} />
+          <Project title={"Text-Editor App"} link="https://pathakshivansh64.github.io/texteditor/" summary={"The React Text Editor is a web application built with React that provides users with a simple and intuitive platform for writing, editing, and formatting text. This application serves as a lightweight, responsive text editor ideal for note-taking, drafting documents."} type={" Project"} img={Project3} github={"https://github.com/pathakshivansh64/texteditor"} />
           </div>
 
           <div className='col-span-12'>
