@@ -49,20 +49,17 @@ const about = () => {
             <div className='col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8'>
               <h2 className='mb-4 text-lg font-bold uppercase text-dark/75  dark:text-light/75 '>Biography</h2>
               <p className='my-4 font-medium'>
-            Hi, I&#39;m CodeBucks, a web developer and UI/UX designer with a passion for creating beautiful, functional, 
-            and user-centered digital experiences. With 4 years of experience in the field. I am always looking for 
+            Hi, I&#39;m Shivansh Pathak, a Full stack web developer  with a passion for creating beautiful, functional, 
+            and user-centered digital websites. I am always looking for 
             new and innovative ways to bring my clients visions to life.
             </p>
 
             <p className='my-4 font-medium'>
-            I believe that design is about more than just making things look pretty - it&#39;s about solving problems and 
-            creating intuitive, enjoyable experiences for users. 
+            My journey into programming began with a curiosity for how web applications work and a desire to create interactive, impactful user experiences. Since then, I have committed myself to mastering the essential tools and skills needed to develop dynamic, scalable, and responsive web applications.
             </p>
 
             <p className='my-4 font-medium'>
-            Whether I&#39;m working on a website, mobile app, or 
-            other digital product, I bring my commitment to design excellence and user-centered thinking to 
-            every project I work on. I look forward to the opportunity to bring my skills and passion to your next project. 
+            Aside from technical skills, I value collaboration and open-source contributions. I’m enthusiastic about learning from experienced developers, sharing knowledge, and working in a team environment. As a fresher in the field, I am actively seeking opportunities to contribute to real-world projects where I can apply my MERN stack skills, grow as a developer, and make a positive impact through technology. I look forward to the opportunity to bring my skills and passion to your next project. 
             </p>
             </div>
 
